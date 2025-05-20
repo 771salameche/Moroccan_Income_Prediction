@@ -26,11 +26,11 @@ from pathlib import Path
 from typing import Union, Dict, List, Tuple, Optional, Any
 
 # For prediction intervals
-from scipy import stats
+from scipy import stats # type: ignore
 
 # For SHAP explanations
 try:
-    import shap
+    import shap # type: ignore
     SHAP_AVAILABLE = True
 except ImportError:
     SHAP_AVAILABLE = False
