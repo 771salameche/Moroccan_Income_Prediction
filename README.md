@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="font-size: 3rem; font-weight: 700; color: #1a202c;">
-    PR-DICTION-DU-REVENU-ANNUEL-D-UN-MAROCAIN
+    MOROCCAN INCOME PREDICTION
   </h1>
   <p style="font-size: 1.2rem; color: #4a5568; font-style: italic; margin-top: 1rem;">
     Predicting Moroccan incomes, empowering informed futures.
@@ -99,7 +99,7 @@ Traditional methods of income assessment often rely on self-reporting, which can
 The project is organized into the following main directories:
 
 ```
-moroccan-income-prediction/
+Moroccan_Income_Prediction/
 ├── api/                  # FastAPI prediction API
 │   ├── api.py            # Main API implementation
 │   ├── client_example.py # Example client for API usage
@@ -137,8 +137,8 @@ moroccan-income-prediction/
 
 ```bash
 # Clone the repository (if not already done)
-git clone https://github.com/771salameche/Pr-diction-du-revenu-annuel-d-un-marocain.git
-cd Pr-diction-du-revenu-annuel-d-un-marocain
+git clone https://github.com/771salameche/Moroccan_Income_Prediction.git
+cd Moroccan_Income_Prediction
 
 # Create and activate a virtual environment
 python -m venv .venv
