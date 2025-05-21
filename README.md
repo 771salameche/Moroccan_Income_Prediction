@@ -289,7 +289,7 @@ The Streamlit web application provides an intuitive graphical interface for maki
 6. **Explore** data visualizations about Moroccan income distribution
 
 <div align="center">
-  <img src="C:\Users\salah\OneDrive\Documents\Prédiction du revenu annuel d’un marocain\images\Screenshot 2025-05-21 213812.png" alt="App Screenshot" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="images\Screenshot 2025-05-21 213812.png" alt="App Screenshot" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## 🧪 Running Tests
