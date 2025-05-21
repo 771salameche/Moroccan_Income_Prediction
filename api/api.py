@@ -179,10 +179,16 @@ class PredictionRequest(BaseModel):
 
 class BatchPredictionRequest(BaseModel):
     """Batch prediction request."""
-    features: conlist(IncomeFeatures, min_items=1, max_items=100)
+    features: list[IncomeFeatures]
     return_confidence: bool = Field(True, description="Whether to return confidence intervals")
     confidence_level: float = Field(0.95, description="Confidence level (0-1)", ge=0.5, le=0.99)
     return_explanation: bool = Field(False, description="Whether to return feature importance explanation")
+
+    @validator("features")
+    def check_features_length(cls, v):
+        if not (1 <= len(v) <= 100):
+            raise ValueError("features must contain between 1 and 100 items")
+        return v
 
 class ConfidenceInterval(BaseModel):
     """Confidence interval for a prediction."""
